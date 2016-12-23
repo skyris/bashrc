@@ -110,9 +110,9 @@ function git_ps()
 alias ps_git="git_ps"
 alias ps_back="back_ps"
 alias ll='ls -lahG'
-alias pomodoro='python /opt/my_pomodoro/pomodoro.py &
+alias pomodoro='python /opt/my_shell_utilities/pomodoro.py &
 disown'
-
+alias python3_='python3 -i /opt/my_shell_utilities/autocomplete.py'
 
 #####################
 ##### Packages ######
