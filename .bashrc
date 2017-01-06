@@ -114,6 +114,12 @@ alias pomodoro='python /opt/my_shell_utilities/pomodoro.py &
 disown'
 alias python3_='python3 -i /opt/my_shell_utilities/autocomplete.py'
 
+## arrow up
+bind '"\e[A": history-search-backward'
+## arrow down
+bind '"\e[B": history-search-forward'
+
+
 #####################
 ##### Packages ######
 #####################
